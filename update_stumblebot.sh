@@ -1,0 +1,2 @@
+sed -i 's/<group ref={torsoRef} position={\[0, 1.05, 0\]}>/{skinType === '"'mouse'"' ? (\n        <group ref={torsoRef} position={\[0, 0, 0\]}>\n          <MouseSkin color={color} \/>\n        <\/group>\n      ) : (\n        <>\n          <group ref={torsoRef} position={\[0, 1.05, 0\]}>/g' src/components/StumbleBot.tsx
+sed -i 's/<\/group>\n  );/      <\/>\n      )}\n    <\/group>\n  );/g' src/components/StumbleBot.tsx

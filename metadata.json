@@ -1,0 +1,8 @@
+{
+  "name": "Stumble Tennis Swing",
+  "description": "3D character holding a tennis racket with dynamic swing animation triggered by pressing M.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
